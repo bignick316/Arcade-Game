@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="75" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="12" nextobjectid="1">
+ <layer id="2" name="Background" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <layer id="3" name="Foreground" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Ladders" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <layer id="4" name="Goal" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <objectgroup id="5" name="Coins"/>
+ <objectgroup id="8" name="Insta-death"/>
+ <objectgroup id="9" name="Enemy spawn points"/>
+ <objectgroup id="11" name="Enemy movement"/>
+ <layer id="10" name="Moving platforms" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+</map>

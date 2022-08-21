@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="45" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="7" nextobjectid="2">
+ <tileset firstgid="1" source="Arcade_style_platforms.tsx"/>
+ <layer id="4" name="background" width="45" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxbzczAsHoUj+JRPIpH8SgexaN4FI/iUUwUxgdA8uaMqDRMDzofBpDFkfXhU4PNfEoAsjnoZmKzA1uYEFKDy3xauxmbOD77aenmwQgAjI4NAw==
+  </data>
+ </layer>
+ <layer id="3" name="foreground" width="45" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztyrEJADAIRFFx/xHS6gwZL2WCxVkK4b/q0G8GAAAAzEm/O569XLe1C/FL0XTtLnfgJweZqAkX
+  </data>
+ </layer>
+ <layer id="1" name="Ground" width="45" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGLljNPNAuIA2A3DvqZtqDUTfTBwxVN7sx4sfujBC1rjjE0eWQxbHpw6YGlzpc2JwIDAK4xLHJIQN8ZhKjjlw8FN082DAAkd0rBg==
+  </data>
+ </layer>
+ <layer id="6" name="ladders" width="45" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer id="5" name="goal" width="45" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBaOAfmAR00C7gHSwcAi6eSSAPTjiBSSOTQ4mjksfuhp86oYLAADoEQi0
+  </data>
+ </layer>
+ <objectgroup id="2" name="Jewels">
+  <object id="1" gid="187" x="2402.5" y="1895.88" width="70" height="70"/>
+ </objectgroup>
+</map>

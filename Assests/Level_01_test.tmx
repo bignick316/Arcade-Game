@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="75" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="17" nextobjectid="8">
+ <tileset firstgid="1" source="Arcade_style_platforms.tsx"/>
+ <layer id="2" name="Background" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <layer id="6" name="Ladders" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0EENADAMxLBq/HmM5ijcr2tlI4hSBQAAbHRPd8EcXuW8ynmV8yrnFcDfHhuGA/c=
+  </data>
+ </layer>
+ <layer id="3" name="Foreground" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAIDXABdwAAE=
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzqENADAMBLFkqm7Q/UcqD6/ywJaOXxUAAAAA5LqdWeLnCW3a/pF+9QB0C0QK
+  </data>
+ </layer>
+ <objectgroup id="13" name="Moving platforms">
+  <object id="5" gid="319" x="6335.51" y="1876.83" width="128" height="128">
+   <properties>
+    <property name="boundary_bottom" type="float" value="100"/>
+    <property name="boundary_top" type="float" value="500"/>
+    <property name="change_y" type="float" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <group id="16" name="Enemies">
+  <objectgroup id="15" name="Robot"/>
+ </group>
+ <layer id="12" name="Insta-death" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJADAIADDx/0fEJ50dHLqWBBIBAAAAALzq3LlV7vCrAdeeBWE=
+  </data>
+ </layer>
+ <layer id="4" name="Goal" width="75" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0AEJAAAIwDCxfwlNagtF2BKcRwAAAACwofO64I/yCnhoAOQaAUg=
+  </data>
+ </layer>
+ <objectgroup id="5" name="Coins">
+  <object id="1" gid="597" x="2520.44" y="1949.76" width="70" height="70">
+   <properties>
+    <property name="point_value" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="2" gid="597" x="3809.08" y="1949.76" width="70" height="70">
+   <properties>
+    <property name="point_value" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="3" gid="597" x="7121.68" y="1949.76" width="70" height="70">
+   <properties>
+    <property name="point_value" type="int" value="20"/>
+   </properties>
+  </object>
+  <object id="4" gid="597" x="8286.55" y="1957.04" width="70" height="70">
+   <properties>
+    <property name="point_value" type="int" value="20"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
